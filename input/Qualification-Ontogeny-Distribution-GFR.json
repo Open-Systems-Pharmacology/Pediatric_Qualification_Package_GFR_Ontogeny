@@ -13,7 +13,7 @@
         },
         {
             "Id": "Amikacin-Pediatrics",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Amikacin-Pediatrics/main/Amikacin-Pediatrics.json",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Amikacin-Pediatrics/v1.0/Amikacin-Pediatrics.json",
             "BuildingBlocks": [
                 {
                     "Type": "Compound",
@@ -24,7 +24,7 @@
         },
         {
             "Id": "Vancomycin-Pediatrics",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Vancomycin-Pediatrics/main/Vancomycin-Pediatrics.json",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Vancomycin-Pediatrics/v1.0/Vancomycin-Pediatrics.json",
             "BuildingBlocks": [
                 {
                     "Type": "Compound",
@@ -177,7 +177,7 @@
                             {
                                 "Project": "Amikacin-Pediatrics",
                                 "Simulation": "Vogelstein#2",
-                                "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Pferipheral Venous Blood)",
+                                "Output": "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5097
                             },
@@ -866,39 +866,39 @@
     "Sections": [
         {
             "Id": 2,
-            "Title": "Introduction to Pediatric Translation",
-            "Content": "Content/Section1.md"
+            "Title": "1 Introduction to Pediatric Translation",
+            "Content": "Content/Introduction.md"
         },
         {
             "Id": 3,
-            "Title": "Pediatric translation qualification",
-            "Content": "Content/Section3.md",
+            "Title": "2 Pediatric translation qualification",
+            "Content": "Content/Translation.md",
             "Sections": [
                 {
                     "Id": 31,
                     "Content": "Content/Amikacin_children.md",
-                    "Title": "Amikacin PK Ratio tables and Figures"
+                    "Title": "2.1 Amikacin PK Ratio tables and Figures"
                 },
                 {
                     "Id": 32,
                     "Content": "Content/Concentration_time_profiles_children.md",
-                    "Title": "Amikacin Concentration-Time profiles in Children"
+                    "Title": "2.2 Amikacin Concentration-Time profiles in Children"
                 },
                 {
                     "Id": 33,
                     "Content": "Content/Vancomycin_children.md",
-                    "Title": "Vancomycin PK Ratio tables and Figures"
+                    "Title": "2.3 Vancomycin PK Ratio tables and Figures"
                 },
                 {
                     "Id": 34,
                     "Content": "Content/Concentration_time_profiles_children.md",
-                    "Title": "Vancomycin Concentration-Time profiles in Children"
+                    "Title": "2.4 Vancomycin Concentration-Time profiles in Children"
                 }
             ]
         },
         {
             "Id": 5,
-            "Title": "References",
+            "Title": "3 References",
             "Content": "Content/References.md",
             "Sections": []
         }
